@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    </head>
+    <style>
+        .container{
+            display: flex;
+            background-color: rgb(247, 182, 99);
+            border: solid 2px rgb(32, 218, 79);
+        }
+        .cont_nav{
+            background-color: rgb(247, 182, 99);
+            align-self: flex-start;
+            height: 500px;
+            min-width: 15em;
+            max-width: 15em;
+        }
+        .nav{
+            font-family: cursive;
+            color: rgb(218, 19, 201);
+        }
+        .container__1{
+            display: flex;
+            flex-direction: column;
+            margin: 3px;
+            justify-content: flex-start;
+        }
+        .article{
+            display: flex;
+            background-color: rgb(255, 255, 128);
+            margin-bottom: 3px;
+            border: solid 1px rgb(0, 17, 255);
+            flex: 1 1 auto;
+            font-family: cursive;
+            color: green;
+        }
+        .footer{
+            background-color: rgb(42, 165, 104);
+            color: rgb(236, 234, 101);
+            width: 100%;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+            margin-right: 0;
+            margin-bottom: 1px;
+        }
+        .img{
+            display: flex;
+            justify-self: right;
+            align-self: flex-end;
+        }
+    </style>
+<body>
+    <div class="container">
+        <div class="cont_nav">
+            <div class="nav">
+                <div>Hello</div><br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, labore sapiente? Itaque obcaecati modi dolore alias beatae, placeat, molestias hic autem, praesentium voluptatum temporibus nobis odit. Fugiat commodi dolorum officia.
+                Modi perferendis sit magnam eos rem fuga voluptatum tempore amet voluptate suscipit, dolore omnis nemo officiis dicta quas maiores consectetur, autem qui quibusdam quis quia eligendi. Temporibus aut praesentium hic!
+            </div>
+        </div>
+        <div class="container__1">
+            <div class="article">Part 1<br><br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit magnam modi, accusantium, temporibus sit beatae veniam cum rem eveniet id placeat labore, eum animi officia velit totam repellendus. Pariatur, reprehenderit?
+                Eligendi nihil inventore omnis! Incidunt, quibusdam culpa laudantium libero deleniti expedita optio vero sint repudiandae, quod quia consequatur maiores saepe fuga esse! Officia temporibus aut recusandae, dolorum nulla ratione a.
+                Atque similique, inventore unde dolorem molestias veniam hic consectetur iure aliquam alias eos deleniti vel blanditiis consequatur officiis! Maxime sed distinctio veritatis tempora esse accusantium eveniet nulla praesentium incidunt quo!
+                Accusamus officiis et, hic magnam tempora minus aliquid consequatur repellendus sed eligendi suscipit nostrum? Officia quia dolore cumque, mollitia saepe voluptas ipsam enim eius maxime totam debitis reprehenderit tempore voluptates?
+            </div>
+            <div class="article">Part 2<br><br>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga blanditiis ex necessitatibus velit sed nobis praesentium ipsum dolorum aperiam? Temporibus porro illum ipsa facilis. Voluptatum repellendus dicta veniam vel aspernatur?
+                Maiores, quae eius alias, nisi perspiciatis incidunt repudiandae ab laboriosam repellendus nostrum aspernatur minus dolor deserunt cumque natus tempora soluta? Sit debitis numquam consequuntur laudantium. Minus quibusdam nam ipsam voluptas!
+                Illum quae possimus unde quos nostrum, ipsum quidem similique sit veniam qui quo iusto consectetur illo dolores esse officia harum cupiditate accusantium cum repudiandae commodi vel ab. Explicabo, doloribus quo.
+                <div class="img">
+                    <img src="icon_mail.png" alt="error">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+    <div class="footer">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolor, facere, dolores esse laboriosam iusto, blanditiis ipsam eos est veniam ipsa corrupti repellendus accusantium omnis nemo at maiores mollitia sit.
+    </div>
+    </div>
+    
+</body>
+</html>
